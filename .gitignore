@@ -8,6 +8,8 @@
 node_modules/
 .next/
 out/
+dist/
+coverage/
 *.log
 npm-debug.log*
 .npm
@@ -36,9 +38,5 @@ Thumbs.db
 *.swp
 *~
 
-# ── Docker ────────────────────────────────────────────────────────────
-*.log
-
 # ── macOS archive artefacts ───────────────────────────────────────────
 __MACOSX/
-backend/target/
