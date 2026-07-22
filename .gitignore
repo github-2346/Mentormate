@@ -1,0 +1,43 @@
+# ── Environment ───────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ── Node / Next.js ────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.log
+npm-debug.log*
+.npm
+
+# ── Java / Maven ──────────────────────────────────────────────────────
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ── IDE ───────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# ── OS ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ── Docker ────────────────────────────────────────────────────────────
+*.log
+
+# ── macOS archive artefacts ───────────────────────────────────────────
+__MACOSX/
