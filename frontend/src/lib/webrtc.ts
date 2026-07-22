@@ -68,6 +68,7 @@ export class WebRTCService {
         wsService.send('/app/signal', {
           type: 'ice-candidate',
           from: this.userId,
+          to: 0,
           sessionId: this.sessionId,
           payload: event.candidate,
         } as SignalMessage);
