@@ -39,4 +39,4 @@ Thumbs.db
 *~
 
 # ── macOS archive artefacts ───────────────────────────────────────────
-__MACOSX/
+__MACOSX/backend/target/
